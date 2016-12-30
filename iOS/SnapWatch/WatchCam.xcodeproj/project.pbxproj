@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E0CE20D76D1B20C37983542 /* libPods-SnapWatch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7725681AF2FEE7DF93D1A84A /* libPods-SnapWatch.a */; };
+		D80A5E261B235D9900A5A9C9 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80A5E251B235D9900A5A9C9 /* MediaPlayer.framework */; };
+		D80C17EA1791A46400C25C78 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80C17E91791A46400C25C78 /* QuartzCore.framework */; };
+		D80C17ED17924C1000C25C78 /* SnapWatchSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D80C17EC17924C1000C25C78 /* SnapWatchSettingsViewController.m */; };
+		D81A1F3E17C70A22004C8594 /* SnapWatchSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D81A1F3D17C70A22004C8594 /* SnapWatchSettingsTableViewController.m */; };
+		D822403617C6B2790049D723 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D822403417C6B2790049D723 /* MainStoryboard_iPad.storyboard */; };
+		D82ADC0F1B2C93550014DFFE /* izenme_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D82ADC0E1B2C93550014DFFE /* izenme_logo.png */; };
+		D82ADC111B2C94610014DFFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82ADC101B2C94610014DFFE /* Images.xcassets */; };
+		D838CA541796117E005217DC /* APLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E644201795FAE0004AE3B6 /* APLViewController.m */; };
+		D83D16F3179C2233001C3CA5 /* HelpOverlay.png in Resources */ = {isa = PBXBuildFile; fileRef = D83D16F2179C2233001C3CA5 /* HelpOverlay.png */; };
+		D83D16FF179C7354001C3CA5 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D83D16FA179C7354001C3CA5 /* AppIcon.png */; };
+		D83D1700179C7354001C3CA5 /* AppIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D83D16FB179C7354001C3CA5 /* AppIcon@2x.png */; };
+		D83D1701179C7354001C3CA5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D83D16FC179C7354001C3CA5 /* Default-568h@2x.png */; };
+		D83D1702179C7354001C3CA5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D83D16FD179C7354001C3CA5 /* Default.png */; };
+		D83D1703179C7354001C3CA5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D83D16FE179C7354001C3CA5 /* Default@2x.png */; };
+		D83D1707179C8F43001C3CA5 /* HelpOverlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D83D1705179C8F43001C3CA5 /* HelpOverlay@2x.png */; };
+		D83D1709179C9205001C3CA5 /* HelpOverlay-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D83D1708179C9205001C3CA5 /* HelpOverlay-568h@2x.png */; };
+		D8408F3D1794963300A5FEA8 /* tick.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D8408F3C1794963300A5FEA8 /* tick.aiff */; };
+		D8408F3F1794971C00A5FEA8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8408F3E1794971C00A5FEA8 /* AudioToolbox.framework */; };
+		D8580C581B238CF70002223D /* pebble_colors_64.gif in Resources */ = {isa = PBXBuildFile; fileRef = D8580C571B238CF70002223D /* pebble_colors_64.gif */; };
+		D85863FF183992B000DA64AD /* livepreviewbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = D85863FD183992B000DA64AD /* livepreviewbutton.png */; };
+		D8586400183992B000DA64AD /* livepreviewbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D85863FE183992B000DA64AD /* livepreviewbutton@2x.png */; };
+		D859ABF618382573001E03E4 /* PebbleSnapMessageQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D859ABF418382573001E03E4 /* PebbleSnapMessageQueue.m */; };
+		D859ABF918382FF5001E03E4 /* UIImage+Resizing.m in Sources */ = {isa = PBXBuildFile; fileRef = D859ABF818382FF5001E03E4 /* UIImage+Resizing.m */; };
+		D859DAFF17D55D7A00D180F8 /* DMActivityInstagram.m in Sources */ = {isa = PBXBuildFile; fileRef = D859DAF717D55D7A00D180F8 /* DMActivityInstagram.m */; };
+		D859DB0017D55D7A00D180F8 /* DMResizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D859DAF917D55D7A00D180F8 /* DMResizerViewController.m */; };
+		D859DB0117D55D7A00D180F8 /* DMResizerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D859DAFA17D55D7A00D180F8 /* DMResizerViewController.xib */; };
+		D859DB0217D55D7A00D180F8 /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = D859DAFB17D55D7A00D180F8 /* instagram.png */; };
+		D859DB0317D55D7A00D180F8 /* instagram@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D859DAFC17D55D7A00D180F8 /* instagram@2x.png */; };
+		D859DB0417D55D7A00D180F8 /* instagram~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D859DAFD17D55D7A00D180F8 /* instagram~ipad.png */; };
+		D859DB0517D55D7A00D180F8 /* instagram~ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D859DAFE17D55D7A00D180F8 /* instagram~ipad@2x.png */; };
+		D859DB1417D638E700D180F8 /* HelpOverlay~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D859DB1217D638E700D180F8 /* HelpOverlay~ipad.png */; };
+		D859DB1517D638E700D180F8 /* HelpOverlay@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D859DB1317D638E700D180F8 /* HelpOverlay@2x~ipad.png */; };
+		D859DB1917D63B5E00D180F8 /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D859DB1717D63B5E00D180F8 /* OverlayView.m */; };
+		D859DB1A17D63B5E00D180F8 /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D859DB1817D63B5E00D180F8 /* OverlayView.xib */; };
+		D859DB1D17D63BB100D180F8 /* closebox.png in Resources */ = {isa = PBXBuildFile; fileRef = D859DB1B17D63BB100D180F8 /* closebox.png */; };
+		D859DB1E17D63BB100D180F8 /* closebox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D859DB1C17D63BB100D180F8 /* closebox@2x.png */; };
+		D859DB2917D64A3900D180F8 /* camera_toolbar_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D859DB2117D64A3900D180F8 /* camera_toolbar_icon@2x.png */; };
+		D859DB3017D6CB1D00D180F8 /* UIImage+H568.m in Sources */ = {isa = PBXBuildFile; fileRef = D859DB2F17D6CB1D00D180F8 /* UIImage+H568.m */; };
+		D8987A4B17A3489300D623EA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F572BB178DE2900096DBD4 /* libz.dylib */; };
+		D8987A4D17A348B000D623EA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8987A4C17A348B000D623EA /* CFNetwork.framework */; };
+		D8DC6FCE17D6E77F008BF524 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DC6FCD17D6E77E008BF524 /* Social.framework */; };
+		D8E3BE3117985EA90017E857 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E3BE3017985EA90017E857 /* SystemConfiguration.framework */; };
+		D8E3BE3317986B3D0017E857 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E3BE3217986B3D0017E857 /* AssetsLibrary.framework */; };
+		D8E3BE35179895AE0017E857 /* camera_toolbar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E3BE34179895AE0017E857 /* camera_toolbar_icon.png */; };
+		D8E3BE3A1798A13B0017E857 /* NSMutableDictionary+ImageMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E3BE391798A13B0017E857 /* NSMutableDictionary+ImageMetadata.m */; };
+		D8E9772B178FC50B00A02002 /* glyphicons_011_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E97729178FC50B00A02002 /* glyphicons_011_camera.png */; };
+		D8E9772C178FC50B00A02002 /* glyphicons_011_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E9772A178FC50B00A02002 /* glyphicons_011_camera@2x.png */; };
+		D8E9772F178FC5B100A02002 /* glyphicons_138_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E9772D178FC5B100A02002 /* glyphicons_138_picture.png */; };
+		D8E97730178FC5B100A02002 /* glyphicons_138_picture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E9772E178FC5B100A02002 /* glyphicons_138_picture@2x.png */; };
+		D8E97733178FC62600A02002 /* glyphicons_136_cogwheel.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E97731178FC62600A02002 /* glyphicons_136_cogwheel.png */; };
+		D8E97734178FC62600A02002 /* glyphicons_136_cogwheel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E97732178FC62600A02002 /* glyphicons_136_cogwheel@2x.png */; };
+		D8E97736178FCBFB00A02002 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E97735178FCBFB00A02002 /* CoreImage.framework */; };
+		D8EBD63717907ED1004EE19A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EBD63617907ED1004EE19A /* MobileCoreServices.framework */; };
+		D8F57273178DE1620096DBD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F57272178DE1620096DBD4 /* UIKit.framework */; };
+		D8F57275178DE1620096DBD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F57274178DE1620096DBD4 /* Foundation.framework */; };
+		D8F57277178DE1620096DBD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F57276178DE1620096DBD4 /* CoreGraphics.framework */; };
+		D8F5727D178DE1620096DBD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8F5727B178DE1620096DBD4 /* InfoPlist.strings */; };
+		D8F5727F178DE1620096DBD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F5727E178DE1620096DBD4 /* main.m */; };
+		D8F57283178DE1620096DBD4 /* SnapWatchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F57282178DE1620096DBD4 /* SnapWatchAppDelegate.m */; };
+		D8F5728C178DE1620096DBD4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F5728A178DE1620096DBD4 /* MainStoryboard.storyboard */; };
+		D8F5728F178DE1620096DBD4 /* SnapWatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F5728E178DE1620096DBD4 /* SnapWatchViewController.m */; };
+		D8F572B2178DE2040096DBD4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F572B1178DE2040096DBD4 /* CoreLocation.framework */; };
+		D8F572B4178DE20F0096DBD4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F572B3178DE20F0096DBD4 /* MessageUI.framework */; };
+		D8F572B6178DE21B0096DBD4 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F572B5178DE21B0096DBD4 /* CoreMotion.framework */; };
+		D8F572B8178DE2210096DBD4 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F572B7178DE2210096DBD4 /* CoreBluetooth.framework */; };
+		D8F572BA178DE22B0096DBD4 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F572B9178DE22B0096DBD4 /* ExternalAccessory.framework */; };
+		D8F572BE178EEC810096DBD4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F572BD178EEC810096DBD4 /* AVFoundation.framework */; };
+		D8F572C0178EEDB50096DBD4 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F572BF178EEDB50096DBD4 /* ImageIO.framework */; };
+		D8F572C2178EEDBF0096DBD4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F572C1178EEDBF0096DBD4 /* CoreMedia.framework */; };
+		D8F572C4178EEDC80096DBD4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F572C3178EEDC80096DBD4 /* CoreVideo.framework */; };
+		D8F572C7178EF4FE0096DBD4 /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F572C6178EF4FE0096DBD4 /* CaptureSessionManager.m */; };
+		D8F572CA178EF7240096DBD4 /* overlaygraphic.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F572C8178EF7240096DBD4 /* overlaygraphic.png */; };
+		D8F572CB178EF7240096DBD4 /* scanbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F572C9178EF7240096DBD4 /* scanbutton.png */; };
+		D8FDCBDA183A9FA0008F39FF /* CameraPreviewImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FDCBD9183A9FA0008F39FF /* CameraPreviewImage.m */; };
+		D8FF06F817D2667500CDDE47 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FF06F717D2667500CDDE47 /* Accounts.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0301AE9E183B4AD61E7FFFA4 /* Pods-SnapWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapWatch.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapWatch/Pods-SnapWatch.release.xcconfig"; sourceTree = "<group>"; };
+		7725681AF2FEE7DF93D1A84A /* libPods-SnapWatch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SnapWatch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41A9BA277AB718B1436C940 /* Pods-SnapWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapWatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapWatch/Pods-SnapWatch.debug.xcconfig"; sourceTree = "<group>"; };
+		D80A5E241B23599F00A5A9C9 /* Pebble Snap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Pebble Snap.entitlements"; sourceTree = "<group>"; };
+		D80A5E251B235D9900A5A9C9 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		D80C17E91791A46400C25C78 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D80C17EB17924C1000C25C78 /* SnapWatchSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapWatchSettingsViewController.h; sourceTree = "<group>"; };
+		D80C17EC17924C1000C25C78 /* SnapWatchSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapWatchSettingsViewController.m; sourceTree = "<group>"; };
+		D81A1F3C17C70A22004C8594 /* SnapWatchSettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapWatchSettingsTableViewController.h; sourceTree = "<group>"; };
+		D81A1F3D17C70A22004C8594 /* SnapWatchSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapWatchSettingsTableViewController.m; sourceTree = "<group>"; };
+		D822403517C6B2790049D723 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = SnapWatch/en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		D82ADC0E1B2C93550014DFFE /* izenme_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = izenme_logo.png; path = ../../../../../../../../../github/mobile/iOS/projects/Pebble/iOS/SnapWatch/SnapWatch/izenme_logo.png; sourceTree = "<group>"; };
+		D82ADC101B2C94610014DFFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D83D16F2179C2233001C3CA5 /* HelpOverlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelpOverlay.png; sourceTree = "<group>"; };
+		D83D16FA179C7354001C3CA5 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		D83D16FB179C7354001C3CA5 /* AppIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon@2x.png"; sourceTree = "<group>"; };
+		D83D16FC179C7354001C3CA5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D83D16FD179C7354001C3CA5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D83D16FE179C7354001C3CA5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D83D1705179C8F43001C3CA5 /* HelpOverlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HelpOverlay@2x.png"; sourceTree = "<group>"; };
+		D83D1708179C9205001C3CA5 /* HelpOverlay-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HelpOverlay-568h@2x.png"; sourceTree = "<group>"; };
+		D8408F3C1794963300A5FEA8 /* tick.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = tick.aiff; sourceTree = "<group>"; };
+		D8408F3E1794971C00A5FEA8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D8580C571B238CF70002223D /* pebble_colors_64.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = pebble_colors_64.gif; path = ../../../../../../../../../github/mobile/iOS/projects/Pebble/iOS/SnapWatch/SnapWatch/pebble_colors_64.gif; sourceTree = "<group>"; };
+		D85863FD183992B000DA64AD /* livepreviewbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = livepreviewbutton.png; sourceTree = "<group>"; };
+		D85863FE183992B000DA64AD /* livepreviewbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "livepreviewbutton@2x.png"; sourceTree = "<group>"; };
+		D859ABF318382573001E03E4 /* PebbleSnapMessageQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PebbleSnapMessageQueue.h; sourceTree = "<group>"; };
+		D859ABF418382573001E03E4 /* PebbleSnapMessageQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PebbleSnapMessageQueue.m; sourceTree = "<group>"; };
+		D859ABF718382FF5001E03E4 /* UIImage+Resizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resizing.h"; sourceTree = "<group>"; };
+		D859ABF818382FF5001E03E4 /* UIImage+Resizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resizing.m"; sourceTree = "<group>"; };
+		D859DAF617D55D7A00D180F8 /* DMActivityInstagram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMActivityInstagram.h; sourceTree = "<group>"; };
+		D859DAF717D55D7A00D180F8 /* DMActivityInstagram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMActivityInstagram.m; sourceTree = "<group>"; };
+		D859DAF817D55D7A00D180F8 /* DMResizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMResizerViewController.h; sourceTree = "<group>"; };
+		D859DAF917D55D7A00D180F8 /* DMResizerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMResizerViewController.m; sourceTree = "<group>"; };
+		D859DAFA17D55D7A00D180F8 /* DMResizerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DMResizerViewController.xib; sourceTree = "<group>"; };
+		D859DAFB17D55D7A00D180F8 /* instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram.png; sourceTree = "<group>"; };
+		D859DAFC17D55D7A00D180F8 /* instagram@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "instagram@2x.png"; sourceTree = "<group>"; };
+		D859DAFD17D55D7A00D180F8 /* instagram~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "instagram~ipad.png"; sourceTree = "<group>"; };
+		D859DAFE17D55D7A00D180F8 /* instagram~ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "instagram~ipad@2x.png"; sourceTree = "<group>"; };
+		D859DB1217D638E700D180F8 /* HelpOverlay~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HelpOverlay~ipad.png"; sourceTree = "<group>"; };
+		D859DB1317D638E700D180F8 /* HelpOverlay@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HelpOverlay@2x~ipad.png"; sourceTree = "<group>"; };
+		D859DB1617D63B5E00D180F8 /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		D859DB1717D63B5E00D180F8 /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		D859DB1817D63B5E00D180F8 /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		D859DB1B17D63BB100D180F8 /* closebox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closebox.png; sourceTree = "<group>"; };
+		D859DB1C17D63BB100D180F8 /* closebox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closebox@2x.png"; sourceTree = "<group>"; };
+		D859DB2117D64A3900D180F8 /* camera_toolbar_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_toolbar_icon@2x.png"; sourceTree = "<group>"; };
+		D859DB2F17D6CB1D00D180F8 /* UIImage+H568.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+H568.m"; sourceTree = "<group>"; };
+		D8987A4C17A348B000D623EA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D8B340BC17A5777800B47C98 /* SnapWatchDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnapWatchDebug.h; sourceTree = "<group>"; };
+		D8DC6FCD17D6E77E008BF524 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		D8E3BE3017985EA90017E857 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D8E3BE3217986B3D0017E857 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		D8E3BE34179895AE0017E857 /* camera_toolbar_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_toolbar_icon.png; sourceTree = "<group>"; };
+		D8E3BE361798962D0017E857 /* glyphicons_011_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_011_camera@2x.png"; sourceTree = "<group>"; };
+		D8E3BE381798A0E70017E857 /* NSMutableDictionary+ImageMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+ImageMetadata.h"; sourceTree = "<group>"; };
+		D8E3BE391798A13B0017E857 /* NSMutableDictionary+ImageMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ImageMetadata.m"; sourceTree = "<group>"; };
+		D8E6441F1795FAE0004AE3B6 /* APLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLViewController.h; sourceTree = "<group>"; };
+		D8E644201795FAE0004AE3B6 /* APLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLViewController.m; sourceTree = "<group>"; };
+		D8E97729178FC50B00A02002 /* glyphicons_011_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_011_camera.png; sourceTree = "<group>"; };
+		D8E9772A178FC50B00A02002 /* glyphicons_011_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_011_camera@2x.png"; sourceTree = "<group>"; };
+		D8E9772D178FC5B100A02002 /* glyphicons_138_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_138_picture.png; sourceTree = "<group>"; };
+		D8E9772E178FC5B100A02002 /* glyphicons_138_picture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_138_picture@2x.png"; sourceTree = "<group>"; };
+		D8E97731178FC62600A02002 /* glyphicons_136_cogwheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_136_cogwheel.png; sourceTree = "<group>"; };
+		D8E97732178FC62600A02002 /* glyphicons_136_cogwheel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_136_cogwheel@2x.png"; sourceTree = "<group>"; };
+		D8E97735178FCBFB00A02002 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		D8EBD63617907ED1004EE19A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D8F5726F178DE1620096DBD4 /* WatchCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F57272178DE1620096DBD4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D8F57274178DE1620096DBD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8F57276178DE1620096DBD4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D8F5727A178DE1620096DBD4 /* SnapWatch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapWatch-Info.plist"; sourceTree = "<group>"; };
+		D8F5727C178DE1620096DBD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8F5727E178DE1620096DBD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8F57280178DE1620096DBD4 /* SnapWatch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnapWatch-Prefix.pch"; sourceTree = "<group>"; };
+		D8F57281178DE1620096DBD4 /* SnapWatchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnapWatchAppDelegate.h; sourceTree = "<group>"; };
+		D8F57282178DE1620096DBD4 /* SnapWatchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapWatchAppDelegate.m; sourceTree = "<group>"; };
+		D8F5728B178DE1620096DBD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D8F5728D178DE1620096DBD4 /* SnapWatchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnapWatchViewController.h; sourceTree = "<group>"; };
+		D8F5728E178DE1620096DBD4 /* SnapWatchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapWatchViewController.m; sourceTree = "<group>"; };
+		D8F57296178DE1630096DBD4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D8F5729E178DE1630096DBD4 /* SnapWatchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapWatchTests-Info.plist"; sourceTree = "<group>"; };
+		D8F572A0178DE1630096DBD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8F572A2178DE1630096DBD4 /* SnapWatchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnapWatchTests.h; sourceTree = "<group>"; };
+		D8F572A3178DE1630096DBD4 /* SnapWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapWatchTests.m; sourceTree = "<group>"; };
+		D8F572B1178DE2040096DBD4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D8F572B3178DE20F0096DBD4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		D8F572B5178DE21B0096DBD4 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		D8F572B7178DE2210096DBD4 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		D8F572B9178DE22B0096DBD4 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		D8F572BB178DE2900096DBD4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		D8F572BD178EEC810096DBD4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D8F572BF178EEDB50096DBD4 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		D8F572C1178EEDBF0096DBD4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D8F572C3178EEDC80096DBD4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		D8F572C5178EF4CB0096DBD4 /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSessionManager.h; sourceTree = "<group>"; };
+		D8F572C6178EF4FE0096DBD4 /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionManager.m; sourceTree = "<group>"; };
+		D8F572C8178EF7240096DBD4 /* overlaygraphic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlaygraphic.png; sourceTree = "<group>"; };
+		D8F572C9178EF7240096DBD4 /* scanbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanbutton.png; sourceTree = "<group>"; };
+		D8FDCBD8183A9FA0008F39FF /* CameraPreviewImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraPreviewImage.h; sourceTree = "<group>"; };
+		D8FDCBD9183A9FA0008F39FF /* CameraPreviewImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraPreviewImage.m; sourceTree = "<group>"; };
+		D8FF06F717D2667500CDDE47 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		D8FF06FB17D270FE00CDDE47 /* SnapWatchSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapWatchSettings.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8F5726C178DE1620096DBD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80A5E261B235D9900A5A9C9 /* MediaPlayer.framework in Frameworks */,
+				D8DC6FCE17D6E77F008BF524 /* Social.framework in Frameworks */,
+				D8FF06F817D2667500CDDE47 /* Accounts.framework in Frameworks */,
+				D8987A4D17A348B000D623EA /* CFNetwork.framework in Frameworks */,
+				D8E3BE3117985EA90017E857 /* SystemConfiguration.framework in Frameworks */,
+				D8987A4B17A3489300D623EA /* libz.dylib in Frameworks */,
+				D8E3BE3317986B3D0017E857 /* AssetsLibrary.framework in Frameworks */,
+				D8408F3F1794971C00A5FEA8 /* AudioToolbox.framework in Frameworks */,
+				D80C17EA1791A46400C25C78 /* QuartzCore.framework in Frameworks */,
+				D8EBD63717907ED1004EE19A /* MobileCoreServices.framework in Frameworks */,
+				D8E97736178FCBFB00A02002 /* CoreImage.framework in Frameworks */,
+				D8F572C4178EEDC80096DBD4 /* CoreVideo.framework in Frameworks */,
+				D8F572C2178EEDBF0096DBD4 /* CoreMedia.framework in Frameworks */,
+				D8F572C0178EEDB50096DBD4 /* ImageIO.framework in Frameworks */,
+				D8F572BE178EEC810096DBD4 /* AVFoundation.framework in Frameworks */,
+				D8F572BA178DE22B0096DBD4 /* ExternalAccessory.framework in Frameworks */,
+				D8F572B8178DE2210096DBD4 /* CoreBluetooth.framework in Frameworks */,
+				D8F572B6178DE21B0096DBD4 /* CoreMotion.framework in Frameworks */,
+				D8F572B4178DE20F0096DBD4 /* MessageUI.framework in Frameworks */,
+				D8F572B2178DE2040096DBD4 /* CoreLocation.framework in Frameworks */,
+				D8F57273178DE1620096DBD4 /* UIKit.framework in Frameworks */,
+				D8F57275178DE1620096DBD4 /* Foundation.framework in Frameworks */,
+				D8F57277178DE1620096DBD4 /* CoreGraphics.framework in Frameworks */,
+				0E0CE20D76D1B20C37983542 /* libPods-SnapWatch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8F57266178DE1620096DBD4 = {
+			isa = PBXGroup;
+			children = (
+				D8F57278178DE1620096DBD4 /* SnapWatch */,
+				D8F5729C178DE1630096DBD4 /* SnapWatchTests */,
+				D8F57271178DE1620096DBD4 /* Frameworks */,
+				D8F57270178DE1620096DBD4 /* Products */,
+				FC4816D7576CC579F96EEE5D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D8F57270178DE1620096DBD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8F5726F178DE1620096DBD4 /* WatchCam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8F57271178DE1620096DBD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D80A5E251B235D9900A5A9C9 /* MediaPlayer.framework */,
+				D8DC6FCD17D6E77E008BF524 /* Social.framework */,
+				D8FF06F717D2667500CDDE47 /* Accounts.framework */,
+				D8987A4C17A348B000D623EA /* CFNetwork.framework */,
+				D8F572BB178DE2900096DBD4 /* libz.dylib */,
+				D8E3BE3217986B3D0017E857 /* AssetsLibrary.framework */,
+				D8E3BE3017985EA90017E857 /* SystemConfiguration.framework */,
+				D8408F3E1794971C00A5FEA8 /* AudioToolbox.framework */,
+				D80C17E91791A46400C25C78 /* QuartzCore.framework */,
+				D8EBD63617907ED1004EE19A /* MobileCoreServices.framework */,
+				D8E97735178FCBFB00A02002 /* CoreImage.framework */,
+				D8F572C3178EEDC80096DBD4 /* CoreVideo.framework */,
+				D8F572C1178EEDBF0096DBD4 /* CoreMedia.framework */,
+				D8F572BF178EEDB50096DBD4 /* ImageIO.framework */,
+				D8F572BD178EEC810096DBD4 /* AVFoundation.framework */,
+				D8F572B9178DE22B0096DBD4 /* ExternalAccessory.framework */,
+				D8F572B7178DE2210096DBD4 /* CoreBluetooth.framework */,
+				D8F572B5178DE21B0096DBD4 /* CoreMotion.framework */,
+				D8F572B3178DE20F0096DBD4 /* MessageUI.framework */,
+				D8F572B1178DE2040096DBD4 /* CoreLocation.framework */,
+				D8F57272178DE1620096DBD4 /* UIKit.framework */,
+				D8F57274178DE1620096DBD4 /* Foundation.framework */,
+				D8F57276178DE1620096DBD4 /* CoreGraphics.framework */,
+				D8F57296178DE1630096DBD4 /* SenTestingKit.framework */,
+				7725681AF2FEE7DF93D1A84A /* libPods-SnapWatch.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8F57278178DE1620096DBD4 /* SnapWatch */ = {
+			isa = PBXGroup;
+			children = (
+				D82ADC0E1B2C93550014DFFE /* izenme_logo.png */,
+				D8580C571B238CF70002223D /* pebble_colors_64.gif */,
+				D80A5E241B23599F00A5A9C9 /* Pebble Snap.entitlements */,
+				D8FDCBD8183A9FA0008F39FF /* CameraPreviewImage.h */,
+				D8FDCBD9183A9FA0008F39FF /* CameraPreviewImage.m */,
+				D859ABF318382573001E03E4 /* PebbleSnapMessageQueue.h */,
+				D859ABF418382573001E03E4 /* PebbleSnapMessageQueue.m */,
+				D8E6441F1795FAE0004AE3B6 /* APLViewController.h */,
+				D8E644201795FAE0004AE3B6 /* APLViewController.m */,
+				D8B340BC17A5777800B47C98 /* SnapWatchDebug.h */,
+				D8F57281178DE1620096DBD4 /* SnapWatchAppDelegate.h */,
+				D8F57282178DE1620096DBD4 /* SnapWatchAppDelegate.m */,
+				D8F5728A178DE1620096DBD4 /* MainStoryboard.storyboard */,
+				D822403417C6B2790049D723 /* MainStoryboard_iPad.storyboard */,
+				D8FF06FB17D270FE00CDDE47 /* SnapWatchSettings.h */,
+				D80C17EB17924C1000C25C78 /* SnapWatchSettingsViewController.h */,
+				D80C17EC17924C1000C25C78 /* SnapWatchSettingsViewController.m */,
+				D8F5728D178DE1620096DBD4 /* SnapWatchViewController.h */,
+				D8F5728E178DE1620096DBD4 /* SnapWatchViewController.m */,
+				D8F572C5178EF4CB0096DBD4 /* CaptureSessionManager.h */,
+				D8F572C6178EF4FE0096DBD4 /* CaptureSessionManager.m */,
+				D8E3BE381798A0E70017E857 /* NSMutableDictionary+ImageMetadata.h */,
+				D8E3BE391798A13B0017E857 /* NSMutableDictionary+ImageMetadata.m */,
+				D81A1F3C17C70A22004C8594 /* SnapWatchSettingsTableViewController.h */,
+				D81A1F3D17C70A22004C8594 /* SnapWatchSettingsTableViewController.m */,
+				D82ADC101B2C94610014DFFE /* Images.xcassets */,
+				D8F57279178DE1620096DBD4 /* Supporting Files */,
+			);
+			path = SnapWatch;
+			sourceTree = "<group>";
+		};
+		D8F57279178DE1620096DBD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D85863FD183992B000DA64AD /* livepreviewbutton.png */,
+				D85863FE183992B000DA64AD /* livepreviewbutton@2x.png */,
+				D859DB2F17D6CB1D00D180F8 /* UIImage+H568.m */,
+				D859DB2117D64A3900D180F8 /* camera_toolbar_icon@2x.png */,
+				D859DB1B17D63BB100D180F8 /* closebox.png */,
+				D859DB1C17D63BB100D180F8 /* closebox@2x.png */,
+				D859DB1617D63B5E00D180F8 /* OverlayView.h */,
+				D859DB1717D63B5E00D180F8 /* OverlayView.m */,
+				D859DB1817D63B5E00D180F8 /* OverlayView.xib */,
+				D83D16F2179C2233001C3CA5 /* HelpOverlay.png */,
+				D83D1705179C8F43001C3CA5 /* HelpOverlay@2x.png */,
+				D83D1708179C9205001C3CA5 /* HelpOverlay-568h@2x.png */,
+				D859DB1217D638E700D180F8 /* HelpOverlay~ipad.png */,
+				D859DB1317D638E700D180F8 /* HelpOverlay@2x~ipad.png */,
+				D859DAF617D55D7A00D180F8 /* DMActivityInstagram.h */,
+				D859DAF717D55D7A00D180F8 /* DMActivityInstagram.m */,
+				D859DAF817D55D7A00D180F8 /* DMResizerViewController.h */,
+				D859DAF917D55D7A00D180F8 /* DMResizerViewController.m */,
+				D859DAFA17D55D7A00D180F8 /* DMResizerViewController.xib */,
+				D859DAFB17D55D7A00D180F8 /* instagram.png */,
+				D859DAFC17D55D7A00D180F8 /* instagram@2x.png */,
+				D859DAFD17D55D7A00D180F8 /* instagram~ipad.png */,
+				D859DAFE17D55D7A00D180F8 /* instagram~ipad@2x.png */,
+				D83D16FA179C7354001C3CA5 /* AppIcon.png */,
+				D83D16FB179C7354001C3CA5 /* AppIcon@2x.png */,
+				D83D16FC179C7354001C3CA5 /* Default-568h@2x.png */,
+				D83D16FD179C7354001C3CA5 /* Default.png */,
+				D83D16FE179C7354001C3CA5 /* Default@2x.png */,
+				D8E3BE34179895AE0017E857 /* camera_toolbar_icon.png */,
+				D8E3BE361798962D0017E857 /* glyphicons_011_camera@2x.png */,
+				D8E97729178FC50B00A02002 /* glyphicons_011_camera.png */,
+				D8E9772A178FC50B00A02002 /* glyphicons_011_camera@2x.png */,
+				D8E97731178FC62600A02002 /* glyphicons_136_cogwheel.png */,
+				D8E97732178FC62600A02002 /* glyphicons_136_cogwheel@2x.png */,
+				D8E9772D178FC5B100A02002 /* glyphicons_138_picture.png */,
+				D8E9772E178FC5B100A02002 /* glyphicons_138_picture@2x.png */,
+				D8F572C8178EF7240096DBD4 /* overlaygraphic.png */,
+				D8F572C9178EF7240096DBD4 /* scanbutton.png */,
+				D8F5727A178DE1620096DBD4 /* SnapWatch-Info.plist */,
+				D8F5727B178DE1620096DBD4 /* InfoPlist.strings */,
+				D8408F3C1794963300A5FEA8 /* tick.aiff */,
+				D8F5727E178DE1620096DBD4 /* main.m */,
+				D8F57280178DE1620096DBD4 /* SnapWatch-Prefix.pch */,
+				D859ABF718382FF5001E03E4 /* UIImage+Resizing.h */,
+				D859ABF818382FF5001E03E4 /* UIImage+Resizing.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8F5729C178DE1630096DBD4 /* SnapWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8F572A2178DE1630096DBD4 /* SnapWatchTests.h */,
+				D8F572A3178DE1630096DBD4 /* SnapWatchTests.m */,
+				D8F5729D178DE1630096DBD4 /* Supporting Files */,
+			);
+			path = SnapWatchTests;
+			sourceTree = "<group>";
+		};
+		D8F5729D178DE1630096DBD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8F5729E178DE1630096DBD4 /* SnapWatchTests-Info.plist */,
+				D8F5729F178DE1630096DBD4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC4816D7576CC579F96EEE5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A41A9BA277AB718B1436C940 /* Pods-SnapWatch.debug.xcconfig */,
+				0301AE9E183B4AD61E7FFFA4 /* Pods-SnapWatch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8F5726E178DE1620096DBD4 /* SnapWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F572A7178DE1630096DBD4 /* Build configuration list for PBXNativeTarget "SnapWatch" */;
+			buildPhases = (
+				BAF2FDD4CB39F8DF31E9F193 /* Check Pods Manifest.lock */,
+				D8F5726B178DE1620096DBD4 /* Sources */,
+				D8F5726C178DE1620096DBD4 /* Frameworks */,
+				D8F5726D178DE1620096DBD4 /* Resources */,
+				1F4083CEEC5B02768348D229 /* Copy Pods Resources */,
+				F964FCD1F5FFDCCA1664EAD4 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapWatch;
+			productName = SnapWatch;
+			productReference = D8F5726F178DE1620096DBD4 /* WatchCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8F57267178DE1620096DBD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SnapWatch;
+				LastTestingUpgradeCheck = 0630;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = izen.me;
+				TargetAttributes = {
+					D8F5726E178DE1620096DBD4 = {
+						DevelopmentTeam = 2DM7CWSH4U;
+					};
+				};
+			};
+			buildConfigurationList = D8F5726A178DE1620096DBD4 /* Build configuration list for PBXProject "WatchCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D8F57266178DE1620096DBD4;
+			productRefGroup = D8F57270178DE1620096DBD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8F5726E178DE1620096DBD4 /* SnapWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8F5726D178DE1620096DBD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F5727D178DE1620096DBD4 /* InfoPlist.strings in Resources */,
+				D8F5728C178DE1620096DBD4 /* MainStoryboard.storyboard in Resources */,
+				D8F572CA178EF7240096DBD4 /* overlaygraphic.png in Resources */,
+				D8F572CB178EF7240096DBD4 /* scanbutton.png in Resources */,
+				D8E9772B178FC50B00A02002 /* glyphicons_011_camera.png in Resources */,
+				D8E9772C178FC50B00A02002 /* glyphicons_011_camera@2x.png in Resources */,
+				D8E9772F178FC5B100A02002 /* glyphicons_138_picture.png in Resources */,
+				D8E97730178FC5B100A02002 /* glyphicons_138_picture@2x.png in Resources */,
+				D8E97733178FC62600A02002 /* glyphicons_136_cogwheel.png in Resources */,
+				D8E97734178FC62600A02002 /* glyphicons_136_cogwheel@2x.png in Resources */,
+				D8408F3D1794963300A5FEA8 /* tick.aiff in Resources */,
+				D8E3BE35179895AE0017E857 /* camera_toolbar_icon.png in Resources */,
+				D83D16F3179C2233001C3CA5 /* HelpOverlay.png in Resources */,
+				D83D16FF179C7354001C3CA5 /* AppIcon.png in Resources */,
+				D83D1700179C7354001C3CA5 /* AppIcon@2x.png in Resources */,
+				D83D1701179C7354001C3CA5 /* Default-568h@2x.png in Resources */,
+				D83D1702179C7354001C3CA5 /* Default.png in Resources */,
+				D83D1703179C7354001C3CA5 /* Default@2x.png in Resources */,
+				D83D1707179C8F43001C3CA5 /* HelpOverlay@2x.png in Resources */,
+				D85863FF183992B000DA64AD /* livepreviewbutton.png in Resources */,
+				D83D1709179C9205001C3CA5 /* HelpOverlay-568h@2x.png in Resources */,
+				D8580C581B238CF70002223D /* pebble_colors_64.gif in Resources */,
+				D82ADC111B2C94610014DFFE /* Images.xcassets in Resources */,
+				D82ADC0F1B2C93550014DFFE /* izenme_logo.png in Resources */,
+				D822403617C6B2790049D723 /* MainStoryboard_iPad.storyboard in Resources */,
+				D859DB0117D55D7A00D180F8 /* DMResizerViewController.xib in Resources */,
+				D859DB0217D55D7A00D180F8 /* instagram.png in Resources */,
+				D859DB0317D55D7A00D180F8 /* instagram@2x.png in Resources */,
+				D859DB0417D55D7A00D180F8 /* instagram~ipad.png in Resources */,
+				D859DB0517D55D7A00D180F8 /* instagram~ipad@2x.png in Resources */,
+				D8586400183992B000DA64AD /* livepreviewbutton@2x.png in Resources */,
+				D859DB1417D638E700D180F8 /* HelpOverlay~ipad.png in Resources */,
+				D859DB1517D638E700D180F8 /* HelpOverlay@2x~ipad.png in Resources */,
+				D859DB1A17D63B5E00D180F8 /* OverlayView.xib in Resources */,
+				D859DB1D17D63BB100D180F8 /* closebox.png in Resources */,
+				D859DB1E17D63BB100D180F8 /* closebox@2x.png in Resources */,
+				D859DB2917D64A3900D180F8 /* camera_toolbar_icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F4083CEEC5B02768348D229 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapWatch/Pods-SnapWatch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAF2FDD4CB39F8DF31E9F193 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F964FCD1F5FFDCCA1664EAD4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapWatch/Pods-SnapWatch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8F5726B178DE1620096DBD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D838CA541796117E005217DC /* APLViewController.m in Sources */,
+				D8F5727F178DE1620096DBD4 /* main.m in Sources */,
+				D8F57283178DE1620096DBD4 /* SnapWatchAppDelegate.m in Sources */,
+				D8F5728F178DE1620096DBD4 /* SnapWatchViewController.m in Sources */,
+				D8F572C7178EF4FE0096DBD4 /* CaptureSessionManager.m in Sources */,
+				D80C17ED17924C1000C25C78 /* SnapWatchSettingsViewController.m in Sources */,
+				D8E3BE3A1798A13B0017E857 /* NSMutableDictionary+ImageMetadata.m in Sources */,
+				D8FDCBDA183A9FA0008F39FF /* CameraPreviewImage.m in Sources */,
+				D859ABF618382573001E03E4 /* PebbleSnapMessageQueue.m in Sources */,
+				D859ABF918382FF5001E03E4 /* UIImage+Resizing.m in Sources */,
+				D81A1F3E17C70A22004C8594 /* SnapWatchSettingsTableViewController.m in Sources */,
+				D859DAFF17D55D7A00D180F8 /* DMActivityInstagram.m in Sources */,
+				D859DB0017D55D7A00D180F8 /* DMResizerViewController.m in Sources */,
+				D859DB1917D63B5E00D180F8 /* OverlayView.m in Sources */,
+				D859DB3017D6CB1D00D180F8 /* UIImage+H568.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D822403417C6B2790049D723 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D822403517C6B2790049D723 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D8F5727B178DE1620096DBD4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8F5727C178DE1620096DBD4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D8F5728A178DE1620096DBD4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8F5728B178DE1620096DBD4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		D8F5729F178DE1630096DBD4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8F572A0178DE1630096DBD4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8F572A5178DE1630096DBD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8F572A6178DE1630096DBD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8F572A8178DE1630096DBD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A41A9BA277AB718B1436C940 /* Pods-SnapWatch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "SnapWatch/Pebble Snap.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapWatch/SnapWatch-Prefix.pch";
+				INFOPLIST_FILE = "SnapWatch/SnapWatch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.izen.Pebble-Snap";
+				PRODUCT_NAME = WatchCam;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D8F572A9178DE1630096DBD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0301AE9E183B4AD61E7FFFA4 /* Pods-SnapWatch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "SnapWatch/Pebble Snap.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapWatch/SnapWatch-Prefix.pch";
+				INFOPLIST_FILE = "SnapWatch/SnapWatch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.izen.Pebble-Snap";
+				PRODUCT_NAME = WatchCam;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8F5726A178DE1620096DBD4 /* Build configuration list for PBXProject "WatchCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F572A5178DE1630096DBD4 /* Debug */,
+				D8F572A6178DE1630096DBD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F572A7178DE1630096DBD4 /* Build configuration list for PBXNativeTarget "SnapWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F572A8178DE1630096DBD4 /* Debug */,
+				D8F572A9178DE1630096DBD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8F57267178DE1620096DBD4 /* Project object */;
+}

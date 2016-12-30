@@ -1,0 +1,1 @@
+../../../ImageMagick/include/wand/mogrify.h

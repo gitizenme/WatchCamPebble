@@ -1,0 +1,71 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "izen.me",
+    "longName": "WatchCam",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/video_camera.png",
+                "name": "VIDEO_CAMERA",
+                "type": "png"
+            },
+            {
+                "file": "images/flash_off.png",
+                "name": "FLASH_OFF",
+                "type": "png"
+            },
+            {
+                "file": "images/flash_on.png",
+                "name": "FLASH_ON",
+                "type": "png"
+            },
+            {
+                "file": "images/flash_auto.png",
+                "name": "FLASH_AUTO",
+                "type": "png"
+            },
+            {
+                "file": "images/back_camera.png",
+                "name": "BACK_CAMERA",
+                "type": "png"
+            },
+            {
+                "file": "images/front_camera.png",
+                "name": "FRONT_CAMERA",
+                "type": "png"
+            },
+            {
+                "file": "images/camera.png",
+                "name": "CAMERA",
+                "type": "png"
+            },
+            {
+                "file": "images/appicon.png",
+                "menuIcon": true,
+                "name": "APP_ICON",
+                "type": "png"
+            },
+            {
+                "type": "png",
+                "name": "IMAGE_NO_LITTER",
+                "file": "images/no_litter_crop.png"
+            }            
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "WatchCam",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "6f9302fc-ed64-435a-ae1a-83308fe11802",
+    "versionLabel": "3.0",
+    "versionCode": 3,
+    "watchapp": {
+        "watchface": false
+    }
+}

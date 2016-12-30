@@ -1,0 +1,1 @@
+../../../ImageMagick/include/wand/magick-property.h

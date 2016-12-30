@@ -1,0 +1,1 @@
+../../../ImageMagick/include/magick/pixel-accessor.h

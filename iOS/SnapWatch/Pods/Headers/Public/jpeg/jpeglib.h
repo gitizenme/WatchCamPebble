@@ -1,0 +1,1 @@
+../../../ImageMagick/include/jpeg/jpeglib.h

@@ -1,0 +1,1 @@
+../../../ImageMagick/include/tiff/tiffio.h

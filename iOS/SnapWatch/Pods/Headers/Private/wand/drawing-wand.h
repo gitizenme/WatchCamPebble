@@ -1,0 +1,1 @@
+../../../ImageMagick/include/wand/drawing-wand.h

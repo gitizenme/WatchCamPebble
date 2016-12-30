@@ -1,0 +1,1 @@
+../../../ImageMagick/include/magick/resource_.h

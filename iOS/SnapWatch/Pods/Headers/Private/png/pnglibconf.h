@@ -1,0 +1,1 @@
+../../../ImageMagick/include/png/pnglibconf.h
